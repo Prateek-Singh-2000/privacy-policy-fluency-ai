@@ -120,30 +120,42 @@
     </p>
     <h4 id="microphone-and-audio-data">Microphone and Audio Data</h4>
     <p>
-      Our Service requires access to your device&#39;s microphone
-      (<code>android.permission.RECORD_AUDIO</code>) to allow You to converse
-      with our AI for English language practice.
+      Our Service requires access to your device&#39;s microphone to allow You
+      to converse with our AI for English language practice.
     </p>
     <ul>
       <li>
         <strong>What we collect:</strong> When You use the voice chat feature,
-        We collect temporary audio clips of Your spoken voice.
+        We collect audio clips of Your spoken voice and the resulting text
+        conversation, captured only while You are actively holding the
+        push-to-talk control.
       </li>
       <li>
-        <strong>How we use it:</strong> This audio is securely transmitted in
-        real-time to our third-party AI service provider (Google Gemini)
-        strictly for the purpose of processing Your speech, generating text, and
-        formulating conversational responses.
+        <strong>How we use it:</strong> Your voice recording is sent to a
+        third-party speech-to-text provider, to convert Your speech into text.
+        The resulting text, together with the visible conversation history, is
+        sent to a third-party AI provider (xAI, Gemini or ChatGPT), to generate
+        a spoken response and speaking feedback.
       </li>
       <li>
         <strong>Data Storage and Retention:</strong>
-        <strong
-          >We do not store Your audio recordings or chat history on our servers
-          or databases.</strong
-        >
-        All audio data and conversation history are processed ephemerally. Once
-        a conversation is closed or a new chat is started, all previous audio
-        and text information is permanently discarded and cannot be recovered.
+        We do not independently store Your audio recordings or chat history on
+        our own servers. However, our third-party providers retain data as
+        follows: third party speech-to-text providers may retain fractional
+        samples of voice data as part of its Model Improvement Program to
+        improve speech recognition accuracy; third part AI provider retains
+        request and response data (including transcribed speech and conversation
+        text) for up to 30 days, encrypted, solely for abuse and safety
+        monitoring, after which it is automatically deleted. Neither provider
+        receives this data outside of moments when You are actively using the
+        push-to-talk feature.
+      </li>
+      <li>
+        <strong>Your Consent:</strong>
+        Before first using the voice practice feature, You will be asked to
+        explicitly consent to this data collection and transmission. You may
+        decline, in which case the voice practice feature will not be available
+        to You.
       </li>
     </ul>
     <h3 id="use-of-your-personal-data">Use of Your Personal Data</h3>
@@ -155,8 +167,9 @@
       </li>
       <li>
         <strong>To power voice interactions:</strong> To capture Your spoken
-        English via Your device&#39;s microphone and translate/process it using
-        our third-party AI service provider to help You practice English.
+        English via Your device's microphone, convert it to text using a
+        third-party speech-to-text provider, and generate conversational
+        responses and speaking feedback using a third-party AI service.
       </li>
       <li>
         <strong>To manage Your Account:</strong> to manage Your registration as
@@ -208,11 +221,10 @@
     <ul>
       <li>
         <strong>With Service Providers:</strong> We may share Your Personal
-        Data, including temporary audio recordings and text inputs, with
-        third-party Service Providers (such as our AI provider, Google Gemini)
-        solely to provide and facilitate the core conversational features of our
-        Service, to monitor and analyze the use of our Service, or to contact
-        You.
+        Data, including audio recordings and text inputs, with third-party
+        Service Providers — specifically a third-party speech-to-text provider
+        and a third-party AI provider — solely to provide and facilitate the
+        core conversational features of our Service.
       </li>
       <li>
         <strong>For business transfers:</strong> We may share or transfer Your
@@ -268,9 +280,13 @@
         <strong>Microphone and Audio Data:</strong>
         <ul>
           <li>
-            Processed ephemerally. Audio recordings and chat histories are not
-            stored on our servers. They are discarded immediately after the
-            conversation is closed or a new chat is initiated.
+            Not stored on our own servers; discarded immediately after the
+            conversation is closed or a new chat is initiated. Third-party
+            speech-to-text providers may retain fractional voice samples under
+            its Model Improvement Program to improve model accuracy. A third
+            party AI provider retains request and response data for up to 30
+            days for abuse monitoring, then automatically deletes it. See
+            "Microphone and Audio Data" above for details.
           </li>
         </ul>
       </li>
@@ -486,8 +502,7 @@
       If you have any questions about this Privacy Policy, You can contact us:
     </p>
     <ul>
-      <li>By email: prateek.123racewin@gmail.com</li>
+      <li>By email: support@fluency-backend.com</li>
     </ul>
   </body>
 </html>
-
